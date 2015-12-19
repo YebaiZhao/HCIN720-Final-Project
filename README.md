@@ -28,5 +28,5 @@ To customize your own clock, you could paint the hour plate, minute plate and ac
 
 ### Software installation
 
-There are three different files in the software part. The .ino file are avaliable for two photon. One take care of clock operation(including two [step motors](http://www.amazon.com/gp/product/B00JB22IQC?psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) and two SG92 servo), and another one for data collection(here we provide the light sensor and [motion sensor](http://www.amazon.com/gp/product/B013LA6MW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00) code). Another .html file is for get temperature data from [weather map API](http://openweathermap.org/api) and send it to photon.
+There are three different files in the software part. The .ino file are avaliable for two photon. [One](/Code/clockOperation.ino) take care of clock operation(including two [step motors](http://www.amazon.com/gp/product/B00JB22IQC?psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) and two SG92 servo), and another [one](/Code/sensor.ino) for data collection(here we provide the light sensor and [motion sensor](http://www.amazon.com/gp/product/B013LA6MW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00) code). Another [.html](/Code/test-version1.html) file is for get temperature data from [weather map API](http://openweathermap.org/api) and send it to photon.
 
